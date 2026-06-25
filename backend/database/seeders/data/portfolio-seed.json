@@ -1,0 +1,933 @@
+{
+  "ui": [
+    {
+      "group": "meta",
+      "key": "meta.title",
+      "value_id": "Ahmad Fadilah — Web Developer",
+      "value_en": "Ahmad Fadilah — Web Developer"
+    },
+    {
+      "group": "meta",
+      "key": "meta.description",
+      "value_id": "CV & portfolio Ahmad Fadilah — Web Developer Bogor, 4+ tahun pengalaman. Vue.js, Laravel, TypeScript, MySQL.",
+      "value_en": "CV & portfolio of Ahmad Fadilah — Web Developer from Bogor, 4+ years experience. Vue.js, Laravel, TypeScript, MySQL."
+    },
+    {
+      "group": "nav",
+      "key": "nav.home",
+      "value_id": "Beranda",
+      "value_en": "Home"
+    },
+    {
+      "group": "nav",
+      "key": "nav.about",
+      "value_id": "Tentang",
+      "value_en": "About"
+    },
+    {
+      "group": "nav",
+      "key": "nav.skills",
+      "value_id": "Keahlian",
+      "value_en": "Skills"
+    },
+    {
+      "group": "nav",
+      "key": "nav.experience",
+      "value_id": "Pengalaman",
+      "value_en": "Experience"
+    },
+    {
+      "group": "nav",
+      "key": "nav.projects",
+      "value_id": "Proyek",
+      "value_en": "Projects"
+    },
+    {
+      "group": "nav",
+      "key": "nav.contact",
+      "value_id": "Kontak",
+      "value_en": "Contact"
+    },
+    {
+      "group": "hero",
+      "key": "hero.badge",
+      "value_id": "Terbuka untuk peluang",
+      "value_en": "Open to opportunities"
+    },
+    {
+      "group": "hero",
+      "key": "hero.ctaProjects",
+      "value_id": "Lihat proyek",
+      "value_en": "View projects"
+    },
+    {
+      "group": "hero",
+      "key": "hero.ctaContact",
+      "value_id": "Hubungi saya",
+      "value_en": "Get in touch"
+    },
+    {
+      "group": "hero",
+      "key": "hero.ctaCv",
+      "value_id": "Unduh CV",
+      "value_en": "Download CV"
+    },
+    {
+      "group": "hero",
+      "key": "hero.yearsLabel",
+      "value_id": "tahun pengalaman",
+      "value_en": "years of experience"
+    },
+    {
+      "group": "about",
+      "key": "about.title",
+      "value_id": "Tentang Saya",
+      "value_en": "About Me"
+    },
+    {
+      "group": "about",
+      "key": "about.subtitle",
+      "value_id": "Siapa saya dan bagaimana saya bekerja",
+      "value_en": "Who I am and how I work"
+    },
+    {
+      "group": "about",
+      "key": "about.highlightsTitle",
+      "value_id": "Keahlian utama",
+      "value_en": "Core strengths"
+    },
+    {
+      "group": "about",
+      "key": "about.quickFactsTitle",
+      "value_id": "Info singkat",
+      "value_en": "Quick facts"
+    },
+    {
+      "group": "skills",
+      "key": "skills.title",
+      "value_id": "Keahlian",
+      "value_en": "Skills"
+    },
+    {
+      "group": "skills",
+      "key": "skills.subtitle",
+      "value_id": "Stack yang saya gunakan sehari-hari",
+      "value_en": "Technologies I work with day to day"
+    },
+    {
+      "group": "skills",
+      "key": "skills.primaryTitle",
+      "value_id": "Stack utama",
+      "value_en": "Primary stack"
+    },
+    {
+      "group": "skills",
+      "key": "skills.extraTitle",
+      "value_id": "Juga familiar dengan",
+      "value_en": "Also familiar with"
+    },
+    {
+      "group": "skills",
+      "key": "skills.levels.expert",
+      "value_id": "Mahir",
+      "value_en": "Expert"
+    },
+    {
+      "group": "skills",
+      "key": "skills.levels.proficient",
+      "value_id": "Terampil",
+      "value_en": "Proficient"
+    },
+    {
+      "group": "skills",
+      "key": "skills.levels.familiar",
+      "value_id": "Familiar",
+      "value_en": "Familiar"
+    },
+    {
+      "group": "experience",
+      "key": "experience.title",
+      "value_id": "Pengalaman",
+      "value_en": "Experience"
+    },
+    {
+      "group": "experience",
+      "key": "experience.subtitle",
+      "value_id": "Perjalanan karier 4+ tahun di dunia web development",
+      "value_en": "4+ years journey in web development"
+    },
+    {
+      "group": "projects",
+      "key": "projects.title",
+      "value_id": "Proyek",
+      "value_en": "Projects"
+    },
+    {
+      "group": "projects",
+      "key": "projects.subtitle",
+      "value_id": "Konteks, peran, dan hasil dari pekerjaan utama",
+      "value_en": "Context, role, and outcomes from key work"
+    },
+    {
+      "group": "projects",
+      "key": "projects.viewProject",
+      "value_id": "Lihat demo",
+      "value_en": "View demo"
+    },
+    {
+      "group": "projects",
+      "key": "projects.viewDetail",
+      "value_id": "Lihat detail & screenshot",
+      "value_en": "View detail & screenshots"
+    },
+    {
+      "group": "projects",
+      "key": "projects.context",
+      "value_id": "Konteks",
+      "value_en": "Context"
+    },
+    {
+      "group": "projects",
+      "key": "projects.role",
+      "value_id": "Peran",
+      "value_en": "Role"
+    },
+    {
+      "group": "projects",
+      "key": "projects.outcome",
+      "value_id": "Hasil",
+      "value_en": "Outcome"
+    },
+    {
+      "group": "projects",
+      "key": "projects.status.completed",
+      "value_id": "Selesai",
+      "value_en": "Completed"
+    },
+    {
+      "group": "projects",
+      "key": "projects.status.in_progress",
+      "value_id": "Berjalan",
+      "value_en": "In progress"
+    },
+    {
+      "group": "projects",
+      "key": "projects.status.planned",
+      "value_id": "Direncanakan",
+      "value_en": "Planned"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.back",
+      "value_id": "Kembali ke proyek",
+      "value_en": "Back to projects"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.screenshots",
+      "value_id": "Screenshot Proyek",
+      "value_en": "Project Screenshots"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.screenshotsSubtitle",
+      "value_id": "Cuplikan tampilan dari proyek yang telah dikerjakan",
+      "value_en": "Screenshots from completed project work"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.viewDemo",
+      "value_id": "Lihat demo / repository",
+      "value_en": "View demo / repository"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.notFound",
+      "value_id": "Proyek tidak ditemukan",
+      "value_en": "Project not found"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.backHome",
+      "value_id": "Kembali ke beranda",
+      "value_en": "Back to home"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.closeLightbox",
+      "value_id": "Tutup gambar",
+      "value_en": "Close image"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.prevImage",
+      "value_id": "Gambar sebelumnya",
+      "value_en": "Previous image"
+    },
+    {
+      "group": "projectDetail",
+      "key": "projectDetail.nextImage",
+      "value_id": "Gambar berikutnya",
+      "value_en": "Next image"
+    },
+    {
+      "group": "contact",
+      "key": "contact.title",
+      "value_id": "Kontak",
+      "value_en": "Contact"
+    },
+    {
+      "group": "contact",
+      "key": "contact.subtitle",
+      "value_id": "Mari diskusikan proyek atau peluang kerja",
+      "value_en": "Let's discuss a project or job opportunity"
+    },
+    {
+      "group": "contact",
+      "key": "contact.email",
+      "value_id": "Email",
+      "value_en": "Email"
+    },
+    {
+      "group": "contact",
+      "key": "contact.phone",
+      "value_id": "Telepon",
+      "value_en": "Phone"
+    },
+    {
+      "group": "contact",
+      "key": "contact.location",
+      "value_id": "Lokasi",
+      "value_en": "Location"
+    },
+    {
+      "group": "contact",
+      "key": "contact.availability",
+      "value_id": "Ketersediaan",
+      "value_en": "Availability"
+    },
+    {
+      "group": "contact",
+      "key": "contact.downloadCv",
+      "value_id": "Unduh CV (PDF)",
+      "value_en": "Download CV (PDF)"
+    },
+    {
+      "group": "contact",
+      "key": "contact.cvHint",
+      "value_id": "Letakkan file PDF Anda di public/cv-ahmad-fadilah.pdf",
+      "value_en": "Place your PDF file at public/cv-ahmad-fadilah.pdf"
+    },
+    {
+      "group": "contact",
+      "key": "contact.responseTime",
+      "value_id": "Biasanya membalas dalam 1–2 hari kerja.",
+      "value_en": "I usually reply within 1–2 business days."
+    },
+    {
+      "group": "contact",
+      "key": "contact.socialTitle",
+      "value_id": "Media Sosial",
+      "value_en": "Social Media"
+    },
+    {
+      "group": "contact",
+      "key": "contact.socialSubtitle",
+      "value_id": "Terhubung lewat platform favorit Anda",
+      "value_en": "Connect on your preferred platform"
+    },
+    {
+      "group": "footer",
+      "key": "footer.rights",
+      "value_id": "Hak cipta dilindungi.",
+      "value_en": "All rights reserved."
+    },
+    {
+      "group": "footer",
+      "key": "footer.builtWith",
+      "value_id": "Dibangun dengan Vue 3 & Tailwind CSS",
+      "value_en": "Built with Vue 3 & Tailwind CSS"
+    },
+    {
+      "group": "lang",
+      "key": "lang.switch",
+      "value_id": "Ganti bahasa",
+      "value_en": "Switch language"
+    },
+    {
+      "group": "lang",
+      "key": "lang.id",
+      "value_id": "ID",
+      "value_en": "ID"
+    },
+    {
+      "group": "lang",
+      "key": "lang.en",
+      "value_id": "EN",
+      "value_en": "EN"
+    },
+    {
+      "group": "theme",
+      "key": "theme.toggle",
+      "value_id": "Ganti tema",
+      "value_en": "Toggle theme"
+    },
+    {
+      "group": "theme",
+      "key": "theme.light",
+      "value_id": "Mode terang",
+      "value_en": "Light mode"
+    },
+    {
+      "group": "theme",
+      "key": "theme.dark",
+      "value_id": "Mode gelap",
+      "value_en": "Dark mode"
+    },
+    {
+      "group": "a11y",
+      "key": "a11y.mainNav",
+      "value_id": "Navigasi utama",
+      "value_en": "Main navigation"
+    },
+    {
+      "group": "a11y",
+      "key": "a11y.openMenu",
+      "value_id": "Buka menu",
+      "value_en": "Open menu"
+    },
+    {
+      "group": "a11y",
+      "key": "a11y.closeMenu",
+      "value_id": "Tutup menu",
+      "value_en": "Close menu"
+    },
+    {
+      "group": "a11y",
+      "key": "a11y.skipToContent",
+      "value_id": "Lewati ke konten utama",
+      "value_en": "Skip to main content"
+    }
+  ],
+  "profile": {
+    "name": "Ahmad Fadilah",
+    "email": "ahmdfadilah7@gmail.com",
+    "phone": "+62 898-9505-373",
+    "phone_tel": "+628989505373",
+    "years_experience": "4+",
+    "location": {
+      "id": "Bogor, Indonesia",
+      "en": "Bogor, Indonesia"
+    },
+    "headline": {
+      "id": "Web Developer",
+      "en": "Web Developer"
+    },
+    "tagline": {
+      "id": "Saya merancang web yang tajam di mata, ringan di perangkat, dan kuat di produksi — dengan Vue & Laravel.",
+      "en": "I craft websites that look sharp, feel lightweight, and hold strong in production — with Vue & Laravel."
+    },
+    "bio": {
+      "id": "Web Developer berbasis Bogor dengan 4 tahun pengalaman full-stack. Stack utama saya Vue.js di frontend dan Laravel di backend — untuk website instansi pemerintah, portal perusahaan, hingga proyek klien.",
+      "en": "Bogor-based Web Developer with 4 years of full-stack experience. My primary stack is Vue.js on the frontend and Laravel on the backend — for government agency sites, corporate portals, and client projects."
+    },
+    "availability": {
+      "id": "Terbuka untuk peluang Web Developer & proyek freelance",
+      "en": "Open to Web Developer roles & freelance projects"
+    },
+    "cv_path": "/cv-ahmad-fadilah.pdf",
+    "photo_path": "/profile.svg",
+    "highlights": [
+      {
+        "id": "Pengalaman 4+ tahun di Diskominfo Kota Bogor, Netsindo, dan Solution Intan Prima.",
+        "en": "4+ years across Diskominfo Kota Bogor, Netsindo, and Solution Intan Prima."
+      },
+      {
+        "id": "Terbiasa mengelola banyak website aktif sekaligus — update konten, fitur baru, dan maintenance rutin.",
+        "en": "Used to managing multiple live websites — content updates, new features, and routine maintenance."
+      },
+      {
+        "id": "Stack utama: Vue.js, Laravel, CodeIgniter, TypeScript, Tailwind CSS, MySQL/PostgreSQL, REST API.",
+        "en": "Core stack: Vue.js, Laravel, CodeIgniter, TypeScript, Tailwind CSS, MySQL/PostgreSQL, REST API."
+      },
+      {
+        "id": "Fokus pada website yang stabil di produksi, bukan sekadar tampil bagus di demo.",
+        "en": "Focused on production-stable websites, not just good-looking demos."
+      }
+    ],
+    "stats": [
+      {
+        "label": {
+          "id": "Tahun pengalaman",
+          "en": "Years experience"
+        },
+        "value": "4+"
+      },
+      {
+        "label": {
+          "id": "Stack utama",
+          "en": "Primary stack"
+        },
+        "value": "Vue / Laravel"
+      },
+      {
+        "label": {
+          "id": "Lokasi",
+          "en": "Location"
+        },
+        "value": "Bogor"
+      },
+      {
+        "label": {
+          "id": "Bahasa",
+          "en": "Languages"
+        },
+        "value": "ID / EN"
+      }
+    ],
+    "social": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmdfadilah7",
+        "icon": "github",
+        "handle": "@ahmdfadilah7"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ahmdfadilah7",
+        "icon": "linkedin",
+        "handle": "Ahmad Fadilah"
+      },
+      {
+        "label": "WhatsApp",
+        "url": "https://wa.me/628989505373",
+        "icon": "whatsapp",
+        "handle": "+62 898-9505-373"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/ahmdfadilah7",
+        "icon": "instagram",
+        "handle": "@ahmdfadilah7"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "company": "CV. Solution Intan Prima",
+      "role": {
+        "id": "Web Developer",
+        "en": "Web Developer"
+      },
+      "period": {
+        "id": "Mar 2023 — Apr 2025",
+        "en": "Mar 2023 — Apr 2025"
+      },
+      "description": {
+        "id": "Bogor — mengembangkan website internal dan proyek klien dengan stack Vue.js, Laravel, dan CodeIgniter sesuai kebutuhan proyek.",
+        "en": "Bogor — developing internal and client websites with Vue.js, Laravel, and CodeIgniter depending on project requirements."
+      },
+      "bullets": [
+        {
+          "id": "Membangun antarmuka interaktif dengan Vue.js yang terhubung ke API Laravel untuk modul konten dinamis dan panel admin.",
+          "en": "Built interactive Vue.js frontends connected to Laravel APIs for dynamic content modules and admin panels."
+        },
+        {
+          "id": "Memelihara dan mengembangkan aplikasi legacy berbasis CodeIgniter untuk sistem internal yang masih aktif.",
+          "en": "Maintained and extended legacy CodeIgniter applications for active internal systems."
+        },
+        {
+          "id": "Mengintegrasikan REST API, optimasi query database, dan deployment ke lingkungan produksi.",
+          "en": "Integrated REST APIs, optimized database queries, and deployed to production environments."
+        }
+      ],
+      "tags": [
+        "Vue.js",
+        "Laravel",
+        "CodeIgniter",
+        "MySQL",
+        "REST API"
+      ]
+    },
+    {
+      "company": "PT. Netsindo Intermedia Etrade",
+      "role": {
+        "id": "Web Developer",
+        "en": "Web Developer"
+      },
+      "period": {
+        "id": "Agu 2021 — Mar 2023",
+        "en": "Aug 2021 — Mar 2023"
+      },
+      "description": {
+        "id": "Bogor — mengerjakan website operasional perusahaan menggunakan Vue.js, Laravel, dan CodeIgniter untuk kebutuhan bisnis internal dan klien.",
+        "en": "Bogor — delivering operational company websites using Vue.js, Laravel, and CodeIgniter for internal business and client needs."
+      },
+      "bullets": [
+        {
+          "id": "Mengembangkan dashboard dan fitur laporan dengan Vue.js di frontend dan Laravel/CodeIgniter di backend.",
+          "en": "Developed dashboards and reporting features with Vue.js on the frontend and Laravel/CodeIgniter on the backend."
+        },
+        {
+          "id": "Membangun modul formulir digital dengan validasi server-side dan integrasi database MySQL.",
+          "en": "Built digital form modules with server-side validation and MySQL database integration."
+        },
+        {
+          "id": "Berkolaborasi dengan tim non-teknis untuk menerjemahkan kebutuhan bisnis menjadi fitur web yang usable.",
+          "en": "Collaborated with non-technical teams to translate business needs into usable web features."
+        }
+      ],
+      "tags": [
+        "Vue.js",
+        "Laravel",
+        "CodeIgniter",
+        "MySQL",
+        "REST API"
+      ]
+    },
+    {
+      "company": "Diskominfo Kota Bogor",
+      "role": {
+        "id": "Web Developer",
+        "en": "Web Developer"
+      },
+      "period": {
+        "id": "Agu 2020 — Agu 2021",
+        "en": "Aug 2020 — Aug 2021"
+      },
+      "description": {
+        "id": "Bogor — membangun dan mengelola portal pemerintahan daerah dengan Vue.js, Laravel, dan CodeIgniter.",
+        "en": "Bogor — building and managing local government portals with Vue.js, Laravel, and CodeIgniter."
+      },
+      "bullets": [
+        {
+          "id": "Mengelola portal COVID-19 Kota Bogor — pembaruan data harian dan penambahan halaman informasi publik.",
+          "en": "Managed the Bogor City COVID-19 portal — daily data updates and new public information pages."
+        },
+        {
+          "id": "Mengembangkan website dinas dengan Vue.js di sisi frontend dan Laravel/CodeIgniter untuk backend & CMS.",
+          "en": "Developed agency websites with Vue.js on the frontend and Laravel/CodeIgniter for backend and CMS."
+        },
+        {
+          "id": "Memastikan website pemerintahan responsif dan dapat diakses dari perangkat mobile masyarakat.",
+          "en": "Ensured government websites were responsive and accessible from citizens mobile devices."
+        }
+      ],
+      "tags": [
+        "Vue.js",
+        "Laravel",
+        "CodeIgniter",
+        "MySQL",
+        "REST API"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "covid-portal-bogor",
+      "title": {
+        "id": "Portal COVID-19 Kota Bogor",
+        "en": "Bogor City COVID-19 Portal"
+      },
+      "description": {
+        "id": "Portal informasi publik prioritas tinggi untuk pembaruan data dan edukasi warga.",
+        "en": "High-priority public information portal for data updates and citizen education."
+      },
+      "context": {
+        "id": "Dinas membutuhkan kanal resmi untuk menyampaikan data dan informasi COVID-19 secara cepat dan akurat.",
+        "en": "The agency needed an official channel to deliver COVID-19 data and information quickly and accurately."
+      },
+      "role": {
+        "id": "Pengembangan fitur, pembaruan konten harian, dan perawatan website produksi.",
+        "en": "Feature development, daily content updates, and production website maintenance."
+      },
+      "outcome": {
+        "id": "Portal aktif digunakan publik dengan alur update konten yang terstruktur dan tampilan mobile-friendly.",
+        "en": "Portal actively used by the public with structured content updates and a mobile-friendly layout."
+      },
+      "image_path": "/projects/covid-portal.svg",
+      "url": null,
+      "stack": [
+        "Vue.js",
+        "Laravel",
+        "MySQL",
+        "JavaScript"
+      ],
+      "status": "completed",
+      "screenshots": [
+        {
+          "image_path": "/projects/covid-portal/screenshot-1.svg",
+          "caption": {
+            "id": "Halaman utama portal informasi",
+            "en": "Portal information homepage"
+          }
+        },
+        {
+          "image_path": "/projects/covid-portal/screenshot-2.svg",
+          "caption": {
+            "id": "Dashboard data harian",
+            "en": "Daily data dashboard"
+          }
+        },
+        {
+          "image_path": "/projects/covid-portal/screenshot-3.svg",
+          "caption": {
+            "id": "Tampilan mobile responsif",
+            "en": "Responsive mobile view"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "diskominfo-websites",
+      "title": {
+        "id": "Website Pemerintahan Diskominfo",
+        "en": "Diskominfo Government Websites"
+      },
+      "description": {
+        "id": "Serangkaian website instansi pemerintah daerah dengan fitur publikasi dan layanan digital.",
+        "en": "A series of local government agency websites with publishing and digital service features."
+      },
+      "context": {
+        "id": "Beberapa dinas memerlukan website resmi dengan kemampuan publikasi berita dan formulir layanan.",
+        "en": "Multiple departments needed official websites with news publishing and service forms."
+      },
+      "role": {
+        "id": "Full-stack development — struktur halaman, backend PHP, dan integrasi database.",
+        "en": "Full-stack development — page structure, PHP backend, and database integration."
+      },
+      "outcome": {
+        "id": "Website responsif diluncurkan sesuai kebutuhan masing-masing dinas dengan modul yang dapat dikembangkan.",
+        "en": "Responsive websites launched per department needs with extensible modules."
+      },
+      "image_path": "/projects/government.svg",
+      "url": null,
+      "stack": [
+        "Vue.js",
+        "Laravel",
+        "CodeIgniter",
+        "MySQL"
+      ],
+      "status": "completed",
+      "screenshots": [
+        {
+          "image_path": "/projects/government/screenshot-1.svg",
+          "caption": {
+            "id": "Beranda instansi pemerintah",
+            "en": "Government agency homepage"
+          }
+        },
+        {
+          "image_path": "/projects/government/screenshot-2.svg",
+          "caption": {
+            "id": "Halaman berita & publikasi",
+            "en": "News & publishing page"
+          }
+        },
+        {
+          "image_path": "/projects/government/screenshot-3.svg",
+          "caption": {
+            "id": "Formulir layanan masyarakat",
+            "en": "Public service form"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "corporate-client-websites",
+      "title": {
+        "id": "Website Korporat & Klien",
+        "en": "Corporate & Client Websites"
+      },
+      "description": {
+        "id": "Website perusahaan dan proyek klien dengan kebutuhan admin panel dan integrasi API.",
+        "en": "Company and client websites with admin panel and API integration requirements."
+      },
+      "context": {
+        "id": "Perusahaan dan klien membutuhkan website yang dapat dikelola mandiri tanpa menyentuh kode.",
+        "en": "Companies and clients needed websites they could manage without touching code."
+      },
+      "role": {
+        "id": "Arsitektur Laravel, pengembangan modul CMS ringan, dan deployment ke server produksi.",
+        "en": "Laravel architecture, lightweight CMS module development, and production server deployment."
+      },
+      "outcome": {
+        "id": "Tim klien dapat mengelola konten sendiri; formulir dan data terintegrasi ke backend secara aman.",
+        "en": "Client teams can manage their own content; forms and data integrate securely with the backend."
+      },
+      "image_path": "/projects/corporate.svg",
+      "url": null,
+      "stack": [
+        "Vue.js",
+        "Laravel",
+        "REST API",
+        "MySQL"
+      ],
+      "status": "completed",
+      "screenshots": [
+        {
+          "image_path": "/projects/corporate/screenshot-1.svg",
+          "caption": {
+            "id": "Landing page perusahaan",
+            "en": "Corporate landing page"
+          }
+        },
+        {
+          "image_path": "/projects/corporate/screenshot-2.svg",
+          "caption": {
+            "id": "Panel admin CMS",
+            "en": "CMS admin panel"
+          }
+        },
+        {
+          "image_path": "/projects/corporate/screenshot-3.svg",
+          "caption": {
+            "id": "Manajemen konten & formulir",
+            "en": "Content & form management"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "webprofile-portfolio",
+      "title": {
+        "id": "WebProfile — Portfolio Pribadi",
+        "en": "WebProfile — Personal Portfolio"
+      },
+      "description": {
+        "id": "Website CV & portfolio modern sebagai showcase kemampuan front-end terkini.",
+        "en": "Modern CV & portfolio website showcasing current front-end capabilities."
+      },
+      "context": {
+        "id": "Membutuhkan profil online profesional yang mencerminkan skill terbaru di luar stack PHP tradisional.",
+        "en": "Needed a professional online profile reflecting newer skills beyond the traditional PHP stack."
+      },
+      "role": {
+        "id": "Desain UI, implementasi Vue 3 + Tailwind, i18n dwibahasa, dan optimasi performa.",
+        "en": "UI design, Vue 3 + Tailwind implementation, bilingual i18n, and performance optimization."
+      },
+      "outcome": {
+        "id": "Single-page portfolio responsif dengan dark mode, animasi halus, dan siap di-deploy statis.",
+        "en": "Responsive single-page portfolio with dark mode, subtle animations, and static deploy readiness."
+      },
+      "image_path": "/projects/portfolio.svg",
+      "url": "https://github.com/ahmdfadilah7",
+      "stack": [
+        "Vue 3",
+        "Vite",
+        "Tailwind",
+        "TypeScript"
+      ],
+      "status": "in_progress",
+      "screenshots": [
+        {
+          "image_path": "/projects/portfolio/screenshot-1.svg",
+          "caption": {
+            "id": "Hero & navigasi utama",
+            "en": "Hero & main navigation"
+          }
+        },
+        {
+          "image_path": "/projects/portfolio/screenshot-2.svg",
+          "caption": {
+            "id": "Section keahlian & pengalaman",
+            "en": "Skills & experience sections"
+          }
+        },
+        {
+          "image_path": "/projects/portfolio/screenshot-3.svg",
+          "caption": {
+            "id": "Halaman detail proyek",
+            "en": "Project detail page"
+          }
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "primaryStack": [
+      "Vue.js",
+      "Laravel",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "skillGroups": [
+      {
+        "title": {
+          "id": "Pengembangan",
+          "en": "Development"
+        },
+        "skills": [
+          {
+            "label": "JavaScript",
+            "level": "proficient"
+          },
+          {
+            "label": "PHP / CodeIgniter",
+            "level": "proficient"
+          },
+          {
+            "label": "HTML & CSS",
+            "level": "expert"
+          },
+          {
+            "label": "jQuery",
+            "level": "proficient"
+          }
+        ]
+      },
+      {
+        "title": {
+          "id": "Data & API",
+          "en": "Data & API"
+        },
+        "skills": [
+          {
+            "label": "MySQL",
+            "level": "expert"
+          },
+          {
+            "label": "PostgreSQL",
+            "level": "proficient"
+          },
+          {
+            "label": "REST API",
+            "level": "proficient"
+          }
+        ]
+      },
+      {
+        "title": {
+          "id": "Tools & Sistem",
+          "en": "Tools & Systems"
+        },
+        "skills": [
+          {
+            "label": "Git",
+            "level": "proficient"
+          },
+          {
+            "label": "Vite",
+            "level": "proficient"
+          },
+          {
+            "label": "Linux",
+            "level": "familiar"
+          },
+          {
+            "label": "Windows",
+            "level": "expert"
+          }
+        ]
+      }
+    ],
+    "skillTags": [
+      "Pinia",
+      "Vue Router",
+      "Docker",
+      "Responsive Design",
+      "SEO",
+      "Performance"
+    ]
+  }
+}

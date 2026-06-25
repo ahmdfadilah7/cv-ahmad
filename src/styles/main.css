@@ -1,0 +1,205 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/plus-jakarta-sans';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light dark;
+  --accent: #65a30d;
+  --accent-fg: #fffbeb;
+  --accent-muted: rgba(101, 163, 13, 0.12);
+}
+
+html.dark {
+  color-scheme: dark;
+  --accent: #bef264;
+  --accent-fg: #0f172a;
+  --accent-muted: rgba(190, 242, 100, 0.12);
+}
+
+html.light {
+  color-scheme: light;
+  --accent: #65a30d;
+  --accent-fg: #fffbeb;
+  --accent-muted: rgba(101, 163, 13, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html.dark body {
+  background-color: #09090b;
+  background-image:
+    radial-gradient(ellipse 120% 80% at 10% -10%, rgba(190, 242, 100, 0.09), transparent 50%),
+    radial-gradient(ellipse 80% 60% at 100% 0%, rgba(113, 113, 122, 0.12), transparent 45%);
+}
+
+html.light body {
+  background-color: #fafaf9;
+  background-image:
+    radial-gradient(ellipse 100% 70% at 0% 0%, rgba(101, 163, 13, 0.08), transparent 55%),
+    radial-gradient(ellipse 80% 50% at 100% 10%, rgba(120, 113, 108, 0.08), transparent 50%);
+}
+
+.section-shell {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 640px) {
+  .section-shell {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-shell {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.container-main {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: max(1rem, env(safe-area-inset-left));
+}
+
+@media (min-width: 640px) {
+  .container-main {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-main {
+    padding-inline: 2rem;
+  }
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.site-grid::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-size: 56px 56px;
+  background-image:
+    linear-gradient(to right, rgba(120, 113, 108, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(120, 113, 108, 0.06) 1px, transparent 1px);
+}
+
+html.dark .site-grid::before {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+.site-content {
+  position: relative;
+  z-index: 1;
+}
+
+.glass-card {
+  border: 1px solid rgba(120, 113, 108, 0.2);
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+}
+
+html.dark .glass-card {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.accent-text {
+  color: var(--accent);
+}
+
+.status-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.skill-bar {
+  height: 6px;
+  border-radius: 9999px;
+  background: rgba(120, 113, 108, 0.15);
+  overflow: hidden;
+}
+
+html.dark .skill-bar {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.skill-bar-fill {
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 70%, white));
+  transition: width 1s ease-out;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}

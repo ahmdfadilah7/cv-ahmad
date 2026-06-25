@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#09090b"/>
+  <circle cx="700" cy="80" r="100" fill="#bef264" fill-opacity="0.15"/>
+  <text x="48" y="80" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#fafaf9">WebProfile</text>
+  <text x="48" y="120" font-family="system-ui,sans-serif" font-size="16" fill="#a1a1aa">Vue 3 · Tailwind · TypeScript</text>
+  <rect x="48" y="150" width="180" height="260" rx="16" fill="#18181b" stroke="#3f3f46"/>
+  <rect x="250" y="150" width="502" height="120" rx="16" fill="#18181b" stroke="#3f3f46"/>
+  <rect x="250" y="290" width="240" height="120" rx="16" fill="#18181b" stroke="#3f3f46"/>
+  <rect x="510" y="290" width="242" height="120" rx="16" fill="#18181b" stroke="#3f3f46"/>
+  <rect x="72" y="180" width="132" height="8" rx="4" fill="#65a30d"/>
+</svg>

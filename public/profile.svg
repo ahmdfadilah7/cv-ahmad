@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#e7e5e4"/>
+  <circle cx="200" cy="160" r="72" fill="#d6d3d1"/>
+  <ellipse cx="200" cy="320" rx="110" ry="90" fill="#d6d3d1"/>
+  <text x="200" y="380" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#78716c">Ganti dengan public/profile.jpg</text>
+</svg>

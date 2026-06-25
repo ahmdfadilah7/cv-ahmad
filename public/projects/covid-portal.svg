@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f172a"/>
+  <circle cx="650" cy="100" r="120" fill="#bef264" fill-opacity="0.12"/>
+  <text x="48" y="80" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#fafaf9">COVID-19 Portal</text>
+  <text x="48" y="120" font-family="system-ui,sans-serif" font-size="16" fill="#a1a1aa">Diskominfo Kota Bogor</text>
+  <rect x="48" y="160" width="704" height="220" rx="16" fill="#18181b" stroke="#3f3f46"/>
+  <rect x="72" y="190" width="200" height="12" rx="6" fill="#3f3f46"/>
+  <rect x="72" y="220" width="320" height="8" rx="4" fill="#27272a"/>
+  <rect x="72" y="240" width="280" height="8" rx="4" fill="#27272a"/>
+  <rect x="72" y="300" width="120" height="36" rx="18" fill="#65a30d"/>
+</svg>

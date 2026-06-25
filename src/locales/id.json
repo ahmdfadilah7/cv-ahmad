@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Ahmad Fadilah — Web Developer",
+    "description": "CV & portfolio Ahmad Fadilah — Web Developer Bogor, 4+ tahun pengalaman. Vue.js, Laravel, TypeScript, MySQL."
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "experience": "Pengalaman",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "badge": "Terbuka untuk peluang",
+    "ctaProjects": "Lihat proyek",
+    "ctaContact": "Hubungi saya",
+    "ctaCv": "Unduh CV",
+    "yearsLabel": "tahun pengalaman"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Siapa saya dan bagaimana saya bekerja",
+    "highlightsTitle": "Keahlian utama",
+    "quickFactsTitle": "Info singkat"
+  },
+  "skills": {
+    "title": "Keahlian",
+    "subtitle": "Stack yang saya gunakan sehari-hari",
+    "primaryTitle": "Stack utama",
+    "extraTitle": "Juga familiar dengan",
+    "levels": {
+      "expert": "Mahir",
+      "proficient": "Terampil",
+      "familiar": "Familiar"
+    }
+  },
+  "experience": {
+    "title": "Pengalaman",
+    "subtitle": "Perjalanan karier 4+ tahun di dunia web development"
+  },
+  "projects": {
+    "title": "Proyek",
+    "subtitle": "Konteks, peran, dan hasil dari pekerjaan utama",
+    "viewProject": "Lihat demo",
+    "viewDetail": "Lihat detail & screenshot",
+    "context": "Konteks",
+    "role": "Peran",
+    "outcome": "Hasil",
+    "status": {
+      "completed": "Selesai",
+      "in_progress": "Berjalan",
+      "planned": "Direncanakan"
+    }
+  },
+  "projectDetail": {
+    "back": "Kembali ke proyek",
+    "screenshots": "Screenshot Proyek",
+    "screenshotsSubtitle": "Cuplikan tampilan dari proyek yang telah dikerjakan",
+    "screenshotsEmpty": "Belum ada screenshot untuk proyek ini.",
+    "viewDemo": "Lihat demo / repository",
+    "notFound": "Proyek tidak ditemukan",
+    "backHome": "Kembali ke beranda",
+    "closeLightbox": "Tutup gambar",
+    "prevImage": "Gambar sebelumnya",
+    "nextImage": "Gambar berikutnya"
+  },
+  "contact": {
+    "title": "Kontak",
+    "subtitle": "Mari diskusikan proyek atau peluang kerja",
+    "email": "Email",
+    "phone": "Telepon",
+    "location": "Lokasi",
+    "availability": "Ketersediaan",
+    "downloadCv": "Unduh CV (PDF)",
+    "cvHint": "Letakkan file PDF Anda di public/cv-ahmad-fadilah.pdf",
+    "responseTime": "Biasanya membalas dalam 1–2 hari kerja.",
+    "socialTitle": "Media Sosial",
+    "socialSubtitle": "Terhubung lewat platform favorit Anda"
+  },
+  "footer": {
+    "rights": "Hak cipta dilindungi.",
+    "builtWith": "Dibangun dengan Vue 3 & Tailwind CSS"
+  },
+  "lang": {
+    "switch": "Ganti bahasa",
+    "id": "ID",
+    "en": "EN"
+  },
+  "theme": {
+    "toggle": "Ganti tema",
+    "light": "Mode terang",
+    "dark": "Mode gelap"
+  },
+  "a11y": {
+    "mainNav": "Navigasi utama",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "skipToContent": "Lewati ke konten utama"
+  }
+}

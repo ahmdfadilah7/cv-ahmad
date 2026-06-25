@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Ahmad Fadilah — Web Developer",
+    "description": "CV & portfolio of Ahmad Fadilah — Web Developer from Bogor, 4+ years experience. Vue.js, Laravel, TypeScript, MySQL."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Open to opportunities",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "ctaCv": "Download CV",
+    "yearsLabel": "years of experience"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Who I am and how I work",
+    "highlightsTitle": "Core strengths",
+    "quickFactsTitle": "Quick facts"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I work with day to day",
+    "primaryTitle": "Primary stack",
+    "extraTitle": "Also familiar with",
+    "levels": {
+      "expert": "Expert",
+      "proficient": "Proficient",
+      "familiar": "Familiar"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "4+ years journey in web development"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Context, role, and outcomes from key work",
+    "viewProject": "View demo",
+    "viewDetail": "View detail & screenshots",
+    "context": "Context",
+    "role": "Role",
+    "outcome": "Outcome",
+    "status": {
+      "completed": "Completed",
+      "in_progress": "In progress",
+      "planned": "Planned"
+    }
+  },
+  "projectDetail": {
+    "back": "Back to projects",
+    "screenshots": "Project Screenshots",
+    "screenshotsSubtitle": "Screenshots from completed project work",
+    "screenshotsEmpty": "No screenshots available for this project.",
+    "viewDemo": "View demo / repository",
+    "notFound": "Project not found",
+    "backHome": "Back to home",
+    "closeLightbox": "Close image",
+    "prevImage": "Previous image",
+    "nextImage": "Next image"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's discuss a project or job opportunity",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "availability": "Availability",
+    "downloadCv": "Download CV (PDF)",
+    "cvHint": "Place your PDF file at public/cv-ahmad-fadilah.pdf",
+    "responseTime": "I usually reply within 1–2 business days.",
+    "socialTitle": "Social Media",
+    "socialSubtitle": "Connect on your preferred platform"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Vue 3 & Tailwind CSS"
+  },
+  "lang": {
+    "switch": "Switch language",
+    "id": "ID",
+    "en": "EN"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "a11y": {
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to main content"
+  }
+}
