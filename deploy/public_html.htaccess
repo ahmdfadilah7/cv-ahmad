@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Homepage Vue dulu, bukan Laravel welcome
+    DirectoryIndex index.html index.php
+
+    # Header auth untuk Laravel
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # File statis yang benar-benar ada (assets Vue, gambar, js/css Filament)
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Route Laravel: API, admin, health check, Livewire endpoints
+    RewriteRule ^(api|admin|livewire|up)(/.*)?$ index.php [L,QSA]
+
+    # Livewire v3+ memuat JS dari path versioned, mis. /livewire-81cded15/livewire.js
+    # Tanpa rule ini, Apache mengembalikan index.html Vue → SyntaxError: Unexpected token '<'
+    RewriteRule ^livewire-[a-f0-9]+/.*$ index.php [L,QSA]
+
+    # Fallback Vue SPA (/projects/slug, dll.)
+    RewriteRule ^ index.html [L]
+</IfModule>
