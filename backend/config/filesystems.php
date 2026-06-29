@@ -40,7 +40,8 @@ return [
 
         'public' => [
             'driver' => 'local',
-            'root' => storage_path('app/public'),
+            // Hostinger: set STORAGE_PUBLIC_ROOT ke public_html/storage (tanpa symlink)
+            'root' => env('STORAGE_PUBLIC_ROOT', storage_path('app/public')),
             'url' => rtrim(env('APP_URL', 'http://localhost'), '/').'/storage',
             'visibility' => 'public',
             'throw' => false,
