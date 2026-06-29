@@ -8,17 +8,15 @@
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
+    # PENTING: route Laravel HARUS di atas pengecekan folder/file statis.
+    # Jika ada folder fisik "admin/" di public_html, tanpa rule ini /admin → 403 Forbidden.
+    RewriteRule ^(api|admin|livewire|up)(/.*)?$ index.php [L,QSA]
+    RewriteRule ^livewire-[a-f0-9]+/.*$ index.php [L,QSA]
+
     # File statis yang benar-benar ada (assets Vue, gambar, js/css Filament)
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
-
-    # Route Laravel: API, admin, health check, Livewire endpoints
-    RewriteRule ^(api|admin|livewire|up)(/.*)?$ index.php [L,QSA]
-
-    # Livewire v3+ memuat JS dari path versioned, mis. /livewire-81cded15/livewire.js
-    # Tanpa rule ini, Apache mengembalikan index.html Vue → SyntaxError: Unexpected token '<'
-    RewriteRule ^livewire-[a-f0-9]+/.*$ index.php [L,QSA]
 
     # Fallback Vue SPA (/projects/slug, dll.)
     RewriteRule ^ index.html [L]
