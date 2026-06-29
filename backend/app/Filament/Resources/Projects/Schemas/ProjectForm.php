@@ -41,6 +41,13 @@ class ProjectForm
                             ])
                             ->required()
                             ->columnSpanFull(),
+                        TextInput::make('sort_order')
+                            ->label('Urutan')
+                            ->numeric()
+                            ->default(0)
+                            ->minValue(0)
+                            ->helperText('Angka lebih kecil tampil lebih dulu. Bisa juga diatur dengan drag-and-drop di daftar.')
+                            ->columnSpanFull(),
                         Repeater::make('screenshots')
                             ->relationship()
                             ->label('Screenshot')
